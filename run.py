@@ -4,7 +4,7 @@ import subprocess
 import sys
 
 # run Smooth Contours
-p1 = subprocess.run(['smooth_contours','input_0_selection.pgm', '-p','output.pdf','-t','output.txt'])
+p1 = subprocess.run(['smooth_contours','input_0.png', '-p','output.pdf','-t','output.txt'])
 
 
 # convert the PDF result into a PNG image
